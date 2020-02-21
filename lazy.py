@@ -3,7 +3,7 @@ import time
 import threading
 
 # get login url
-browser=webdriver.Chrome("D:\\choromedriver\\chromedriver.exe")
+browser=webdriver.Chrome("")
 browser.get("https://passport.zhihuishu.com/login?service=http://online.zhihuishu.com/onlineSchool/")
 
 
@@ -78,8 +78,8 @@ def is_end():
 
 if __name__=='__main__':
 
-    number="18630816527"
-    password="Zhjyyjjmjy666"
+    number=""
+    password=""
     login(number,password)
 
     # 开两个线程
